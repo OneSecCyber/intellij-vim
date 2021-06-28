@@ -23,10 +23,12 @@ git clone https://github.com/OneSecCyber/intellij-vim.git
 ```bash
 cd intellij-vim
 
-make
+bash make.sh
 
 ```
 NOTE: After this operation, the nvim should open automatically
+
+IMPORTANT : after opening the nvim you wel see some errors and warnings. Just ignore those for time beeing. 
 
 REMEMBER : The second steps will not install anything. instread, it will make changes in configuration files.
 
@@ -46,7 +48,7 @@ NOTE: I hope, you know what i mean by `:`
 :CocInstall coc-python coc-yaml coc-css coc-html coc-json coc-tsserver
 
 ```
-INFO : you can install a lot of coc pllugins, see the nvim documentation for coc
+INFO : you can install a lot of coc plugins, see the nvim documentation for coc
 
 5) If its all gone well, you can feel the power of nvim.
 	To test, open some file like :

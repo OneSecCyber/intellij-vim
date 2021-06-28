@@ -1,7 +1,9 @@
 
 sudo apt-get install neovim
-mkdir ~/.config
-ls
-cp intellij-vim/nvim ~/.config/ -rf
+
+rm -rf ~/.config/nvim
+
+mkdir ~/.config/nvim
+cp nvim ~/.config/ -rf
 cd ~/
 nvim			

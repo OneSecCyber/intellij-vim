@@ -14,6 +14,8 @@ REMEMBER : you need a basic understanding of vim commands
 
 ```bash
 
+git clone https://github.com/OneSecCyber/intellij-vim.git
+
 ```
 
 2) run this to do required changes in your neovim/nvim configuration files

@@ -10,3 +10,5 @@ cp nvim ~/.config/ -rf
 npm install --global yarn
 cd ~/
 nvim			
+
+
